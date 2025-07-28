@@ -14,6 +14,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="BodFit – Your path to elite fitness and total body transformation." />
   <title>BodFit | Elite Fitness Training</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/png" href="favicon.png" />
   <script defer src="script.js"></script>
@@ -29,6 +33,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
   </script>
 </head>
+
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      palette: {
+        popup: { background: "#000" },
+        button: { background: "#f1d600", text: "#000" }
+      },
+      theme: "classic",
+      content: {
+        message: "We use cookies to ensure you get the best experience. POPIA & GDPR compliant.",
+        dismiss: "Got it!",
+        link: "Learn more",
+        href: "privacy.html"
+      }
+    });
+  });
+</script>
+
+
 <body>
 
 <!-- Google Tag Manager (noscript) -->

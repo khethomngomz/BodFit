@@ -15,9 +15,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Contact the BodFit team – we’re here to support your fitness journey." />
   <title>Contact Us | BodFit</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
 </head>
+
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      palette: {
+        popup: { background: "#000" },
+        button: { background: "#f1d600", text: "#000" }
+      },
+      theme: "classic",
+      content: {
+        message: "We use cookies to ensure you get the best experience. POPIA & GDPR compliant.",
+        dismiss: "Got it!",
+        link: "Learn more",
+        href: "privacy.html"
+      }
+    });
+  });
+</script>
+
+
 <body>
 
 
