@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /staging/
 Allow: /
 
-Sitemap: https://your-vercel-site-url/sitemap.xml
+Sitemap: https://bod-fit.vercel.app/sitemap.xml
